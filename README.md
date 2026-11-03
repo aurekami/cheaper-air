@@ -1,5 +1,9 @@
 # Cheaper Air
 
+[![Checks](https://github.com/aurekami/cheaper-air/actions/workflows/tests.yml/badge.svg)](https://github.com/aurekami/cheaper-air/actions/workflows/tests.yml)
+
+[Architecture](docs/architecture.md) · [API](docs/api.md) · [Technical review](docs/audit-2026-11-03.md)
+
 **A local AI flight search agent that explores price differences across localized search results and connects selected itineraries to airline or agency offers.**
 
 Built as a GitHub portfolio project with FastAPI, React, PostgreSQL and a local Ollama model. It combines a worldwide airport directory, deterministic price comparison, real API observations and seller handoffs. It does not purchase tickets.
