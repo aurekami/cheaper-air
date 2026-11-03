@@ -1,0 +1,19 @@
+# Local PostgreSQL only. Run the Python and React development servers with scripts/dev.sh.
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: cheaper_air
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-cheaper_air}
+      POSTGRES_DB: cheaper_air
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - cheaper_air_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cheaper_air -d cheaper_air"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+volumes:
+  cheaper_air_data:

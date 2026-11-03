@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.env
+*.db
+node_modules/
+frontend/dist/
+output/
+.playwright-cli/
+
+.env.*
+!.env.example
+*.log
+*.db-*
+.DS_Store

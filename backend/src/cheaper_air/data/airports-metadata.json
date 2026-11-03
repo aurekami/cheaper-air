@@ -1,0 +1,20 @@
+{
+  "source": "OurAirports",
+  "source_url": "https://ourairports.com/data/",
+  "downloaded_at": "2026-11-03",
+  "license": "Public domain",
+  "records": 86335,
+  "sha256": "d0f7be8a090332898ae39f37b313fd8bdffaef7f3405283c72ba3bd1e15099e1",
+  "columns": [
+    "ident",
+    "iata_code",
+    "name",
+    "municipality",
+    "country",
+    "country_name",
+    "type",
+    "scheduled_service",
+    "latitude",
+    "longitude"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "cheaper-air-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {"dev": "vite --host 127.0.0.1", "build": "vite build", "preview": "vite preview --host 127.0.0.1"},
+  "dependencies": {"react": "^19.0.0", "react-dom": "^19.0.0", "lucide-react": "^0.468.0", "d3-geo": "^3.1.1", "topojson-client": "^3.1.0", "world-atlas": "^2.0.2"},
+  "devDependencies": {"vite": "^6.0.0", "@vitejs/plugin-react": "^4.3.4", "tailwindcss": "^4.0.0", "@tailwindcss/vite": "^4.0.0"}
+}
